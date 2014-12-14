@@ -1,6 +1,6 @@
 source $1
 
-GIT_STRING="git clone http://github.com/mainak/EmulabScripts"
+GIT_STRING="git clone http://github.com/mghosh4/EmulabScripts"
 REMOVE_STRING="sudo rm -rf /home/mainak/EmulabScripts/"
 for  node in ${QUERY_ROUTERS//,/ }
 do
