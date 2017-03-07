@@ -219,7 +219,7 @@ then
             let counter=counter+1;
     done
     echo "Sleeping for a minute waiting for the initiation of the replica sets to finish..."
-    sleep 60
+    sleep 150
     counter=0
     for set in ${NEW_REPLICA_SETS//;/ }
     do
