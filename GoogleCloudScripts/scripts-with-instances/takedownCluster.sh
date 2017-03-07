@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ $# -le 2 ]; then
-	echo "Usage: ./takedownCluster.sh -n <number of instances> -r <1 for remove disk/ any other number otherwise>"
+if [ $# -le 1 ]; then
+	echo "Usage: ./takedownCluster.sh -n <number of instances> -r <1 for remove disk/ any other number otherwise> -p <node name prefix, default node>"
 	exit
 fi
 
